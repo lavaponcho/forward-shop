@@ -1,5 +1,5 @@
-import { createAction, createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { RootState, AppThunk } from '../../app/store';
+import { createAction, createSlice } from '@reduxjs/toolkit';
+import { RootState } from '../../app/store';
 import { Product } from '../../app/types';
 import { initialProducts } from './products';
 

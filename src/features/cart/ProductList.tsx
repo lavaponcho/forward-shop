@@ -12,7 +12,7 @@ function ProductList({items,show_actions = true}:Props) {
   return (
     <Box sx={{display:'grid',gridTemplateColumns:'1fr',gap:'1rem'}}>
         {items.map((item)=>{
-            return <ProductListItem cart_item={item} show_actions={show_actions}/>
+            return <ProductListItem key={item.product_id} cart_item={item} show_actions={show_actions}/>
         })}
         {items.length == 0 && 
         <Card>

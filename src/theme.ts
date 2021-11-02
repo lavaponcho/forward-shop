@@ -32,7 +32,6 @@ import { createTheme } from "@mui/material";
     
       
   });
-  console.log(theme);
   export default theme;
 
   

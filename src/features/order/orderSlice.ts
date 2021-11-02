@@ -1,4 +1,4 @@
-import { createAction, createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createAction, createSlice } from '@reduxjs/toolkit';
 import { RootState, AppThunk } from '../../app/store';
 import { CartItem, CheckoutForm } from '../../app/types';
 import { clearCart, getCartItems } from '../cart/cartSlice';

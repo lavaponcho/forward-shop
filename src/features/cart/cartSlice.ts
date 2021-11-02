@@ -1,6 +1,6 @@
-import { createAction, createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { RootState, AppThunk } from '../../app/store';
-import { CartItem, Product } from '../../app/types';
+import { createAction, createSlice } from '@reduxjs/toolkit';
+import { RootState } from '../../app/store';
+import { CartItem } from '../../app/types';
 import { getProductById } from '../products/productSlice';
 
 export interface CartState {

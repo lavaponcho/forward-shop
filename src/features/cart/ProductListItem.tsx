@@ -1,10 +1,9 @@
-import { Button, Card, CardActions, CardContent, CardHeader, CardMedia, Divider, Typography } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import { useAppSelector } from '../../app/hooks';
 import { CartItem } from '../../app/types';
 import { getProductById } from '../products/productSlice';
-import { getCartItems, getTotalCartAmount } from './cartSlice';
 import ProductCartActions from './ProductCartActions';
 
 function ProductListItem({cart_item,show_actions = true}:Props) {

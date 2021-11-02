@@ -1,4 +1,3 @@
-import { CardMedia } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 
